@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Hide whitespace on Github PR",
+  "version": "0.0.0",
+  "description": "Always hide whitespaces in GitHub PR",
+  "host_permissions": ["https://github.com/**"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/pull/*"],
+      "run_at": "document_start",
+      "js": ["main.js"]
+    }
+  ]
+}
