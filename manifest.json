@@ -5,6 +5,7 @@
   "description": "Always hide whitespaces in GitHub PR",
   "host_permissions": ["https://github.com/**"],
   "icons": {
+    "128": "public/icon128.png",
     "512": "public/logo512.png"
   },
   "content_scripts": [
